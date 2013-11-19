@@ -1,0 +1,306 @@
+body{
+	background-color: #eee;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	font-family: Verdana;
+	font-size: 12pt;
+}
+
+header{
+	width: 100%;
+	background-color: #404040;
+	height: 40px;
+	text-align: center;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+}
+
+header .sidebar_control{
+	float: left;
+	padding: 5px;
+}
+
+header .sidebar_control img{
+	width: 30px;
+	height: 30px;
+}
+
+header .online_list{
+	float: left;
+}
+
+header .online_list img{
+	width: 40px;
+	height: 20px;
+	padding: 10px;
+}
+
+header #closel img{
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+}
+
+header #closes{
+	display: none;
+}
+
+header #closel{
+	display: none;
+}
+
+header h1{
+	padding: 0px;
+	margin: 0px;
+	color: #fff;
+}
+
+div#sidebar, div#onlinelist{
+	display: none;
+	position: absolute;
+	background-color: #202020;
+	height: 100%;
+	width: 100%;
+}
+
+div#sidebar fieldset a{
+	color: #fff;
+	text-decoration: none;
+}
+
+div#sidebar fieldset legend{
+	color: #fff;
+}
+
+div#sidebar fieldset{
+	margin-top: 10px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	color: #fff;
+}
+
+div#sidebar fieldset form input[type="password"]{
+	width: 250px;
+	float: left;
+	height: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+
+div#sidebar fieldset form input[type="button"]{
+	background-color: #404040;
+	height: 30px;
+	width: 100px;
+	border: none;
+	margin-top: 10px;
+	color: #fff;
+}
+
+div#sidebar fieldset form span{
+	float: left;
+	min-width: 250px;
+}
+
+div#sidebar fieldset form a{
+	float: left;
+	color: #000000;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	padding: 5px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+div#sidebar fieldset ul#chats{
+	margin: 0px;
+	padding: 0px;
+}
+
+div#sidebar fieldset ul#chats li{
+	display: block;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+div#sidebar fieldset ul#chats li:nth-child(odd){
+	background-color: #ddd;
+}
+
+div#sidebar fieldset ul#chats li a{
+	color: #000000;
+	text-decoration: none;
+}
+
+div#chatbox{
+	background-color: #eee;
+	width: 99%;
+	padding: 0.5%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+/*msg_form*/
+
+form#msg_form{
+	border-top: 2px solid #ccc;
+	width: 99%;
+	padding: 0.5%;
+	bottom: 0px;
+	height: 50px;
+	-moz-box-shadow:    0px 0px 10px 0px #aaa;
+	-webkit-box-shadow: 0px 0px 10px 0px #aaa;
+	box-shadow:         0px 0px 10px 0px #aaa;
+}
+
+form#msg_form textarea{
+	background-color: #fff;
+	border: 1px solid #ccc;
+	width: 90%;
+	height: 70px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	resize: none;
+}
+
+form#msg_form input[type="button"]{
+	background: url("../images/send.png") no-repeat;
+	background-position: center;
+	background-color: #404040;
+	border: 1px solid #ccc;
+	height: 70px;
+	width: 10%;
+	float: right;
+}
+
+form#msg_form input[type="button"]:active{
+	background: url("../images/send.png") no-repeat;
+	background-position: center;
+	background-color: #202020;
+}
+
+.time{
+	color: #808080;
+	font-size: 10pt;
+	float: left;
+}
+
+.user{
+	color: red;
+	font-size: 12pt;
+	float: left;
+}
+
+.chattext{
+	color: #101010;
+	font-size: 12pt;
+	float: left;
+	max-width: 90%;
+}
+
+br{
+	clear: both;
+}
+
+/* Login */
+
+form#login{
+	width: 300px;
+	background-color: #fff;
+	height: 80px;
+	padding: 5px;
+	margin: 0 auto;
+	-moz-box-shadow:    0px 0px 10px 0px #aaa;
+	-webkit-box-shadow: 0px 0px 10px 0px #aaa;
+	box-shadow:         0px 0px 10px 0px #aaa;
+}
+
+form#login span{
+	min-width: 150px;
+	float: left;
+}
+
+form#login input[type="text"], form#login input[type="password"]{
+	background-color: #fff;
+	border: 1px solid #ccc;
+	width: 150px;
+	height: 20px;
+	float: left;
+}
+
+form#login input[type="submit"]{
+	margin-top: 10px; 
+}
+
+/* Register */
+
+form#register{
+	width: 350px;
+	background-color: #fff;
+	height: 100px;
+	padding: 5px;
+	margin: 0 auto;
+	-moz-box-shadow:    0px 0px 10px 0px #aaa;
+	-webkit-box-shadow: 0px 0px 10px 0px #aaa;
+	box-shadow:         0px 0px 10px 0px #aaa;
+}
+
+form#register span{
+	min-width: 200px;
+	float: left;
+}
+
+form#register input[type="text"], form#register input[type="password"]{
+	background-color: #fff;
+	border: 1px solid #ccc;
+	width: 150px;
+	height: 20px;
+	float: left;
+}
+
+form#register input[type="submit"]{
+	margin-top: 10px; 
+}
+
+form a{
+	color: #000000;
+	font-size: 10pt;
+	float: right;
+}
+
+.success{
+	color: green;
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.error{
+	color: red;
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Onlinelist */
+
+div#onlinelist{
+	color: #fff;
+}
+
+div#onlinelist ul{
+	display: block;
+	color: #fff;
+}
+
+iframe{
+	border: none;
+	overflow: hidden;
+	width: auto;
+	height: auto;
+}
