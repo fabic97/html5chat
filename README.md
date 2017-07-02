@@ -2,7 +2,7 @@ html5chat
 =========
 
 ## About 
-Chat based of Html5, Ajax, Php and Css3 + Mysql - database
+Chat based on Html5, Ajax, Php and Css3 + Mysql - database
 
 ## How to use it?
 To use this, you have to change the 'config.php' file in the 'inc' directory.
